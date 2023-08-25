@@ -103,8 +103,8 @@ ul {
 }
 
 p {
-  font-size: 14px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 27px;
   color: #2a2a2a;
 }
 
@@ -315,9 +315,9 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 17px;
   color: #2a2a2a;
-  text-transform: capitalize;
+  text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -351,11 +351,11 @@ header
 .header-area .main-nav .nav li.submenu:after {
   font-family: FontAwesome;
   content: "\f107";
-  font-size: 12px;
+  font-size: 16px;
   color: #2a2a2a;
   position: absolute;
-  right: 18px;
-  top: 12px;
+  right: 17px;
+  top: 9px;
 }
 
 .background-header .main-nav .nav li.submenu:after {

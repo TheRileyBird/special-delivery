@@ -863,6 +863,16 @@ banner
     right: 10px;
     padding: 8%;
   }
+  .Modern-Slider .PrevArrow:before {
+    top: 10px;
+    position: absolute;
+    right: 25px;
+  }
+  .Modern-Slider .NextArrow:before {
+    top: 10px;
+    position: absolute;
+    left: 25px;
+  }
 }
 
 .Modern-Slider .PrevArrow:hover {

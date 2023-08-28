@@ -739,6 +739,34 @@ banner
   max-width: 100%;
 }
 
+/* Medium and small*/
+@media screen and (max-width: 63.9375em) {
+  .mobile-header { display: block!important; }
+  .tablet-header { display: none!important; }
+  .desktop-header { display: none!important; }
+
+  .img-fill img {
+    object-fit: cover;
+  }
+
+  .main-banner .inner-content {
+    top: 40%!important;
+    width: 100%!important;
+  }
+}
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .mobile-header { display: none!important; }
+  .tablet-header { display: block!important; }
+  .desktop-header { display: none!important; }
+}
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .mobile-header { display: none!important; }
+  .tablet-header {}
+  .desktop-header { display: block!important; }
+}
+
 *,
 *:before,
 *:after {
@@ -824,6 +852,15 @@ banner
   outline: none;
   opacity: 0.3;
   transition: all .3s;
+}
+/* Medium and small*/
+@media screen and (max-width: 63.9375em) {
+  .Modern-Slider .PrevArrow {
+    left: 10px;
+  }
+  .Modern-Slider .NextArrow {
+    right: 10px;
+  }
 }
 
 .Modern-Slider .PrevArrow:hover {
@@ -917,6 +954,25 @@ Home Hero
   transform: scale(1.1);
 }
 
+/* Medium and small*/
+@media screen and (max-width: 63.9375em) {
+  .img-fill {
+    height: 60vh;
+  }
+  .inner-content__text h1 {
+    line-height: 70px;
+    font-size: 40px;
+  }
+  .inner-content__text h2 {
+    line-height: 20px;
+    font-size: 20px;
+  }
+  .inner-content__text p {
+    line-height: 20px;
+    font-size: 20px;
+  }
+}
+
 /*
 ---------------------------------------------
 about
@@ -971,6 +1027,17 @@ about
   opacity: .9;
 }
 
+
+/* Medium and small*/
+@media screen and (max-width: 63.9375em) {
+  .img-column {
+    order: 2;
+  }
+  .img-column img {
+    height: 385px!important;
+  }
+}
+
 /*
 ---------------------------------------------
 bradley-method
@@ -982,6 +1049,19 @@ bradley-method
   padding: 120px 0px;
   position: relative;
   z-index: 9;
+}
+
+/* Medium and small*/
+@media screen and (max-width: 63.9375em) {
+  #about,
+  #bradley-method,
+  #health-wellness,
+  #lactation {
+    padding: 70px 0px!important;
+  }
+  #lactation {
+    margin-top: 0!important;
+  }
 }
 
 #bradley-method .section-heading h2 {
@@ -1053,6 +1133,12 @@ health-wellness
 
 #health-wellness .right-content {
   margin-left: 30px;
+}
+/* Medium and small*/
+@media screen and (max-width: 63.9375em) {
+  #health-wellness .right-content {
+    margin-left: 0;
+  }
 }
 
 #health-wellness .right-content .thumb {
